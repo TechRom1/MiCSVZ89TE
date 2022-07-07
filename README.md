@@ -9,7 +9,7 @@ After the call of this fonction, you can use the globals variables tVOC, CO2_EQU
 
 Installation ----------------------------------------------------
 
-Dowload the .zip ans add it with the Arduino IDE.
+Dowload the .zip and add it with the Arduino IDE.
 
  - Open Arduino IDE
  - Go on Sketch -> Include librairy -> Add.ZIP librairy
@@ -25,7 +25,8 @@ Include the librairy with
 Setup:
 
 If you use the librairy Wire.h you don't need to use the fonction config_MiCSVZ89TE(byte I2C_address);
-Else in your Setup add the fonction: config_MiCSVZ89TE(byte I2C_address); /!\ Your card will take the I2C_address as I2C master address.
+Else in your Setup add the fonction: config_MiCSVZ89TE(byte I2C_address); 
+/!\ Your card will take the I2C_address as I2C master address.
 
 Loop:
 
